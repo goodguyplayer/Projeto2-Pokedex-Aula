@@ -2,13 +2,13 @@ package model;
 
 // Represents the pokemon
 public class Pokemon {
-    String name;
-    int height;
-    int weight;
-    int id;
-    String type;
-    String sprite;
-    String description;
+    private String name;
+    private int height;
+    private int weight;
+    private int id;
+    private String type;
+    private String sprite;
+    private String description;
 
     public Pokemon(String name, int height, int weight, int id, String type, String sprite, String description) {
         this.name = name;
